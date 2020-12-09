@@ -58,7 +58,7 @@ class Game{
                 }           
                display_position=display_position+20;    
                 textSize(15);
-                text("Name"+allPlayers[plr].name+":"+"ditance travelled"+allPlayers[plr].ditance, 200, display_position);
+                text("Name"+allPlayers[plr].name+":"+"ditance travelled"+allPlayers[plr].distance, 200, display_position);
            } 
         }
         if(keyIsDown(UP_ARROW) && player.index!==null){
